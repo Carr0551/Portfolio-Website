@@ -92,7 +92,7 @@ li, h1 {
 }
 
 .nav {
-  margin-left: 10px;
+  margin: 0;
   list-style-type: none;
   padding: 10px;
   padding-right: 30px;
@@ -102,8 +102,13 @@ li, h1 {
   display: none;
   background-color: #ffffff;
   border-left: 0px;
-  position: absolute;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   z-index: 1000;
+  font-size: 2em;
 }
 
 .navigation-bar{
@@ -131,7 +136,8 @@ li, h1 {
 .heading {
   font-family: "Knewave", cursive;
   font-size: 30pt;
-  padding-top: 5%;
+  padding-top: 2em;
+  padding-bottom: .5em;
 }
 
 .subheading {
@@ -153,6 +159,8 @@ li, h1 {
   font-size: 1.25rem;
   width: 40px;
   display: block;
+  position: relative;
+  z-index: 1001;
 }
 
 .nav-check:checked ~ .nav-label {
@@ -190,26 +198,35 @@ li, h1 {
   .banner-text {
     font-size: 5em;
   }
+
+    .nav-check+.nav-label {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: auto;
+    bottom: auto;
+    background: none;
+    font-size: 1em;
+  }
+
+  .nav li {
+    display: inline;
+    padding-left: 25px;
+  }
+
+  .banner-text {
+    font-size: 10em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
   .banner-text {
-    font-size: 6em;
-  }
-}
-
-@media only screen and (min-width: 90em) {
-
-    .nav, .nav-label {
-    display: none;
-  }
-
-  .navigation-bar {
-    display: block;
-  }
-
-  .banner-text {
-    font-size: 10em;
+    font-size: 15em;
   }
 }
