@@ -142,7 +142,7 @@ li, h1 {
 
 .subheading {
   font-family: "Open Sans", sans-serif;
-  font-size: 10pt;
+  font-size: 11pt;
   padding-top: 5px;
   padding-bottom: 2%;
 }
@@ -175,6 +175,7 @@ li, h1 {
   border-bottom: 0px;
   border-left: 0px;
   border-right: 0px;
+  font-size: .8rem;
 }
 
 .footer-nav {
