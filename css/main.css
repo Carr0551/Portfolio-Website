@@ -80,11 +80,12 @@ li, h1 {
   width: 100%;
   text-align: center;
   transform: translate(0%, -50%);
-  font-family: "Open Sans Condensed 700", sans-serif;
+  font-family: "Knewave", cursive;
   color: white;
   display: inline-block;
-  font-size: 4em;
+  font-size: 5em;
 }
+
 
 .body {
   padding-left: 20%;
@@ -127,6 +128,16 @@ li, h1 {
   opacity: 1;
 }
 
+.btn {
+  background-color: #423F3D;
+  border-color: #423F3D;
+}
+
+.btn:hover {
+  background-color: #d5b343;
+  border-color: #d5b343;
+}
+
 .text {
   color: #423F3D;
   font-size: 16px;
@@ -135,7 +146,7 @@ li, h1 {
 
 .heading {
   font-family: "Knewave", cursive;
-  font-size: 30pt;
+  font-size: 2em;
   padding-top: 2em;
   padding-bottom: .5em;
 }

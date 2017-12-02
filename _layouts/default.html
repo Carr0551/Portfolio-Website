@@ -29,33 +29,34 @@
       </ul>
     </nav>
     <div class="gutter pad-t-1-2">
-      <a href="{{site.baseurl}}/../index.html">
+      <a href="{{site.baseurl}}/../index.html" rel="Home">
         <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="">
       </a>
     </div>
   </header>
 
   {{content}}
-
-  <h2 class="heading text-center push-0">Like What You See?</h2>
-  <p class="subheading text-center push-0">Lets work together to makee something AMAZING!</P>
-  <div class="social-icons text-center pad-t-2 pad-b-2">
-    <a class="icon-link gutter-1-2" href="{{site.baseurl}}/https://www.instagram.com/larissacarruthers/">
-      <i class="icon i-48">
-        <img class="social-icons" src="{{site.baseurl}}/images/icons_instagram.svg" alt="">
-      </i>
-    </a>
-    <a class="icon-link gutter-1-2" href="{{site.baseurl}}/https://www.behance.net/carr05516259">
-      <i class="icon i-48">
-        <img class="social-icons" src="{{site.baseurl}}/images/icons_behance.svg" alt="">
-      </i>
-    </a>
-    <a class="icon-link gutter-1-2" href="{{site.baseurl}}/larissamichelledesign@gmail.com">
-      <i class="icon i-48">
-        <img class="social-icons" src="{{site.baseurl}}/images/icons_email.svg" alt="">
-      </i>
-    </a>
-  </div>
+  <section itemscope itemtype="https://schema.org/Person">
+    <h2 class="heading text-center push-0">Like What You See?</h2>
+    <p class="subheading text-center push-0">Lets work together to makee something AMAZING!</P>
+    <div class="social-icons text-center pad-t-2 pad-b-2">
+      <a itemprop="url" class="icon-link gutter-1-2" href="{{site.baseurl}}/https://www.instagram.com/larissacarruthers/">
+        <i class="icon i-48">
+          <img class="social-icons" src="{{site.baseurl}}/images/icons_instagram.svg" alt="">
+        </i>
+      </a>
+      <a itemprop="url" class="icon-link gutter-1-2" href="{{site.baseurl}}/https://www.behance.net/carr05516259">
+        <i class="icon i-48">
+          <img class="social-icons" src="{{site.baseurl}}/images/icons_behance.svg" alt="">
+        </i>
+      </a>
+      <a itemprop="email" class="icon-link gutter-1-2" href="{{site.baseurl}}/larissamichelledesign@gmail.com">
+        <i class="icon i-48">
+          <img class="social-icons" src="{{site.baseurl}}/images/icons_email.svg" alt="">
+        </i>
+      </a>
+    </div>
+  </section>
 </body>
   <footer class="footer island">
     <p class="push-0">
