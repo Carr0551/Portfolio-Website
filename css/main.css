@@ -258,6 +258,6 @@ textarea:focus {
 @media only screen and (min-width: 60em) {
 
   .banner-text {
-    font-size: 15em;
+    font-size: 10em;
   }
 }
