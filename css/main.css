@@ -12,9 +12,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-    font-family: "Knewave", cursive;
+  font-family: "Knewave", cursive;
   font-family: "Open Sans Condensed", sans-serif;
-  font-family: "Dancing Script", cursive;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -24,6 +23,10 @@ html {
 
 body {
   color: #423F3D;
+}
+
+.contact-content {
+    font-family: "Open Sans", sans-serif;
 }
 
 .img-flex {
@@ -86,7 +89,6 @@ li, h1 {
   font-size: 5em;
 }
 
-
 .body {
   padding-left: 20%;
   padding-right: 20%;
@@ -102,6 +104,7 @@ li, h1 {
   padding-bottom: 30px;
   display: none;
   background-color: #ffffff;
+  color: #d5b343;
   border-left: 0px;
   position: fixed;
   left: 0;
@@ -178,6 +181,18 @@ li, h1 {
   color: #d5b343;
 }
 
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f5f5f5;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #ffffff;
+}
+
 .footer {
   text-align: center;
   padding-bottom: 3%;
@@ -213,6 +228,10 @@ li, h1 {
 
     .nav-check+.nav-label {
     display: none;
+  }
+
+  .nav a:hover {
+    color: #d5b343;
   }
 
   .nav {
