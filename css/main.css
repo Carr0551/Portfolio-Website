@@ -182,7 +182,8 @@ li, h1 {
 }
 
 input,
-textarea {
+textarea,
+select {
   border: 1px solid #ccc;
   border-radius: 3px;
   background-color: #f5f5f5;
@@ -217,6 +218,16 @@ textarea:focus {
 
     .navigation-bar {
       display: none;
+    }
+
+    .picture {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+
+    .pictures {
+      padding-left: none;
+      padding-right: none;
     }
 }
 
@@ -259,5 +270,12 @@ textarea:focus {
 
   .banner-text {
     font-size: 10em;
+  }
+
+  .pictures {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
 }
