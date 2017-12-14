@@ -29,6 +29,8 @@ body {
 
 .contact-content {
     font-family: "Open Sans", sans-serif;
+    padding: none;
+
 }
 
 .img-flex {
@@ -85,16 +87,17 @@ li, h1 {
   width: 100%;
   text-align: center;
   transform: translate(0%, -50%);
-  font-family: "Knewave", cursive;
   color: white;
   display: inline-block;
   font-size: 5em;
 }
 
 .body-content {
-  padding-left: 2em;
-  padding-right: 2em;
   font-size: 10.5pt;
+}
+
+.contact-content {
+  padding: none;
 }
 
 .nav {
@@ -291,9 +294,9 @@ textarea:focus {
     padding-bottom: 2em;
   }
 
-  .body-content {
-    padding-left: 15em;
-    padding-right: 15em;
+  .body-content, .contact-content {
+    padding-left: 20em;
+    padding-right: 20em;
     font-size: 10.5pt;
   }
 }
