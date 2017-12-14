@@ -12,7 +12,9 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "Knewave", cursive;
+  font-family: cortado, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-family: "Open Sans Condensed", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
@@ -89,9 +91,10 @@ li, h1 {
   font-size: 5em;
 }
 
-.body {
-  padding-left: 20%;
-  padding-right: 20%;
+.body-content {
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 10.5pt;
 }
 
 .nav {
@@ -155,7 +158,9 @@ li, h1 {
 }
 
 .subheading {
-  font-family: "Open Sans", sans-serif;
+  font-family: cortado, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 11pt;
   padding-top: 5px;
   padding-bottom: 2%;
@@ -264,6 +269,13 @@ textarea:focus {
   .banner-text {
     font-size: 10em;
   }
+
+  .body-content {
+    padding-left: 10em;
+    padding-right: 10em;
+    font-size: 10.5pt;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -277,5 +289,11 @@ textarea:focus {
     padding-right: 2em;
     padding-top: 2em;
     padding-bottom: 2em;
+  }
+
+  .body-content {
+    padding-left: 15em;
+    padding-right: 15em;
+    font-size: 10.5pt;
   }
 }
