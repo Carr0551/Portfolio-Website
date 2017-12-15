@@ -89,6 +89,7 @@ li, h1 {
   color: white;
   display: inline-block;
   font-size: 5em;
+    font-family: "cortado", sans-serif;
 }
 
 .body-content {
@@ -98,11 +99,6 @@ li, h1 {
 .contact-content {
   padding: none;
   font-size: 8.5pt;
-}
-
-.subheading {
-  font-size: 10pt;
-  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .nav {
@@ -160,16 +156,23 @@ li, h1 {
 
 .heading {
   font-family: "Cortado", sans-serif;
-  font-size: 2em;
+  font-size: 3em;
+  padding-top: 2em;
+  padding-bottom: .5em;
+}
+
+.heading-2 {
+  font-family: "Cortado", sans-serif;
+  font-size: 1.5em;
   padding-top: 2em;
   padding-bottom: .5em;
 }
 
 .subheading {
-  font-family: cortado, sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 11pt;
+  font-size: 10pt;
   padding-top: 5px;
   padding-bottom: 2%;
 }
