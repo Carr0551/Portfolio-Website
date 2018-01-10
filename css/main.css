@@ -85,7 +85,7 @@ li, h1 {
   transform: translate(-50%, -50%);
 }
 
-.banner-text {
+.content {
   position: absolute;
   top: 70%;
   left: 0%;
@@ -260,8 +260,8 @@ textarea:focus {
 
 @media only screen and (min-width: 38em) {
 
-  .banner-text {
-    font-size: 5em;
+  .content {
+    font-size: 10em;
   }
 
     .nav-check+.nav-label {
@@ -288,10 +288,6 @@ textarea:focus {
     padding-left: 25px;
   }
 
-  .banner-text {
-    font-size: 10em;
-  }
-
   .body-content, .contact-content {
     padding-left: 5em;
     padding-right: 5em;
@@ -302,8 +298,8 @@ textarea:focus {
 
 @media only screen and (min-width: 60em) {
 
-  .banner-text {
-    font-size: 20em;
+  .content {
+    font-size: 10em;
   }
 
   .pictures {
@@ -355,8 +351,9 @@ textarea:focus {
 }
 
 @media only screen and (min-width: 90em) {
-  .banner-text {
-    font-size: 10pt;
+
+  .content {
+    font-size: 15em;
   }
 
   .pictures {
