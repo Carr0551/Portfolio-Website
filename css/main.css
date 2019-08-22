@@ -293,6 +293,23 @@ textarea:focus {
     padding-left: 25px;
   }
 
+  .middle-nav {
+    display: inline;
+    position: relative;
+    background: none;
+    font-size: 1em;
+    padding-left: 25px;
+    margin: auto;
+    list-style-type: none;
+  }
+
+  .middle-nav li {
+    display: inline;
+    padding-left: 25px;
+    list-style-type: none;
+    text-align: center;
+  }
+
   .body-content, .contact-content {
     padding-left: 10em;
     padding-right: 10em;
