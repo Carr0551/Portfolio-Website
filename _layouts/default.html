@@ -11,19 +11,25 @@
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/xvr4nii.css">
 </head>
+
+
 <body>
   <header>
     <nav class="left">
       <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
+      <!-- This is for phones only -->
       <label class="nav-label gutter pad-t-1-2" for="nav-check">
         <img class="pad-t-1-2" src="{{site.baseurl}}/images/hamburger-toggle.svg" alt="Open Navigation">
       </label>
+
+      <!-- About Me top right -->
       <ul class="nav list-group left">
         <li class="pad-top block push-1-2"><a href="{{site.baseurl}}/meetme">About Me</a></li>
         <!-- <li class="block push-1-2"><a href="{{site.baseurl}}/portfolio">Portfolio</a></li>
         <li class="block push-1-2"><a href="{{site.baseurl}}/photography">Photography</a></li>
         <li class="block"><a href="{{site.baseurl}}/contact">Contact</a></li> -->
       </ul>
+
     </nav>
     <div class="logo gutter pad-t-1-2">
       <a href="{{site.baseurl}}/../index.html" rel="Home">
@@ -31,30 +37,31 @@
       </a>
     </div>
   </header>
+
   <div class="banner">
     <img class="img-flex pad-b pad-t" src="{{site.baseurl}}/images/wall-mountain.jpg" alt="">
   </div>
 
   <header>
-    <div>
-      <nav class="middle-nav">
-        <ul class="list-group">
-          <li class="pad-top block push-1-2"><a href="{{site.baseurl}}/meetme">UI/UX</a></li>
-          <li class="block push-1-2"><a href="{{site.baseurl}}/portfolio">Branding</a></li>
+    <div id="nav">
+      <nav id="nav">
+        <ul id="nav">
+          <li class="pad-top block push-1-2"><a href="{{site.baseurl}}/UI-UX">UI/UX</a></li>
+          <li class="block push-1-2"><a href="{{site.baseurl}}/Branding">Branding</a></li>
           <li class="block push-1-2"><a href="{{site.baseurl}}/photography">Photography</a></li>
-          <li class="block"><a href="{{site.baseurl}}/contact">Print</a></li>
-          <li class="block"><a href="{{site.baseurl}}/contact">Illustration</a></li>
+          <li class="block"><a href="{{site.baseurl}}/Print">Print</a></li>
+          <li class="block"><a href="{{site.baseurl}}/Illustration">Illustration</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <header>
+  <!-- <header>
     <nav class="left">
-      <!-- <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
+       <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
       <label class="nav-label gutter pad-t-1-2" for="nav-check">
         <img class="pad-t-1-2" src="{{site.baseurl}}/images/hamburger-toggle.svg" alt="Open Navigation">
-      </label> -->
-      <!-- <ul class="nav list-group">
+      </label>
+      <ul class="nav list-group">
         <li class="pad-top block push-1-2"><a href="{{site.baseurl}}/meetme">UI/UX</a></li>
         <li class="block push-1-2"><a href="{{site.baseurl}}/portfolio">Branding</a></li>
         <li class="block push-1-2"><a href="{{site.baseurl}}/photography">Photography</a></li>
@@ -62,14 +69,17 @@
         <li class="block"><a href="{{site.baseurl}}/contact">Illustration</a></li>
       </ul>
     </nav>
-    <!-- <div class="logo gutter pad-t-1-2">
+     <div class="logo gutter pad-t-1-2">
       <a href="{{site.baseurl}}/../index.html" rel="Home">
         <img class="pad-t-1-2" src="{{site.baseurl}}/images/logo.svg" alt="">
       </a>
-    </div> -->
-  </header>
+    </div>
+  </header> -->
+
+<!--The following is outdated, needs to be redone -->
 
   {{content}}
+  <!--
   <section itemscope itemtype="https://schema.org/Person">
     <h2 class="subheading text-center push-0">Like What You See?</h2>
     <p class="text-center push-0">Let's work together to make something AMAZING!</P>
@@ -91,10 +101,13 @@
       </a>
     </div>
   </section>
-</body>
+</body> -->
   <footer class="footer island">
     <p class="push-0">
-      <a class="footer-nav" href="{{site.baseurl}}/meetme">Meet Me</a> | <a class="footer-nav" href="{{site.baseurl}}/portfolio">Portfolio</a> | <a class="footer-nav" href="{{site.baseurl}}/photography">Photography</a> | <a class="footer-nav" href="{{site.baseurl}}/contact">Contact</a>
+      <a class="footer-nav" href="{{site.baseurl}}/meetme">Meet Me</a> |
+      <a class="footer-nav" href="{{site.baseurl}}/portfolio">Portfolio</a> |
+      <a class="footer-nav" href="{{site.baseurl}}/photography">Photography</a> |
+      <a class="footer-nav" href="{{site.baseurl}}/contact">Contact</a>
     </p>
     <p class="footer-nav push">© LarissaMichelle Design 2017 All Rights Reserved</p>
     <a class="footer-nav" <a class="footer-nav" href="#">Terms and Conditions</a> | <a class="footer-nav" href="#">Privacy Policy</a> | <a class="footer-nav" href="#">Contact Us</a>

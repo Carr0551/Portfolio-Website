@@ -277,6 +277,7 @@ textarea:focus {
     color: #d5b343;
   }
 
+
   .nav {
     display: block;
     position: absolute;
@@ -290,26 +291,36 @@ textarea:focus {
 
   .nav li {
     display: inline;
-    padding-left: 25px;
   }
 
   .middle-nav {
-    display: inline;
-    position: relative;
+    position: absolute;
     background: none;
     font-size: 1em;
-    padding-left: 25px;
-    margin: auto;
+    margin: 0, auto;
     list-style-type: none;
   }
 
-  .middle-nav li {
-    display: inline;
-    padding-left: 25px;
-    list-style-type: none;
+  #nav {
     text-align: center;
+    list-style-type: none;
   }
 
+  #nav ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  #nav a {
+    float: left;
+    padding-left: 25px;
+    list-style-type: none;
+  }
+  #nav li {
+    display: inline;
+    list-style-type: none;
+
+  }
   .body-content, .contact-content {
     padding-left: 10em;
     padding-right: 10em;
