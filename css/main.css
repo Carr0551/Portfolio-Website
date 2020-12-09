@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "brush-script-std", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-family: "Open Sans Condensed", sans-serif;
@@ -99,7 +99,7 @@ li, h1 {
   color: white;
   display: inline-block;
   font-size: 5em;
-  font-family: "brush-script-std", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .body-content {
@@ -166,13 +166,13 @@ li, h1 {
 }
 
 .heading {
-  font-family: "brush-script-std", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20pt;
   padding-bottom: .5em;
 }
 
 .heading-2 {
-  font-family: "brush-script-std", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20pt;
   padding-bottom: .5em;
 }
@@ -356,13 +356,13 @@ textarea:focus {
   }
 
   .heading {
-    font-family: "brush-script-std", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 30pt;
     padding-bottom: .5em;
   }
 
   .heading-2 {
-    font-family: "brush-script-std", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 25pt;
     padding-bottom: .5em;
   }
@@ -410,13 +410,13 @@ textarea:focus {
   }
 
   .heading {
-    font-family: "brush-script-std", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 30pt;
     padding-bottom: .5em;
   }
 
   .heading-2 {
-    font-family: "brush-script-std", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 25pt;
     padding-bottom: .5em;
   }
