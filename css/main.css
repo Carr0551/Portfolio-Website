@@ -45,15 +45,16 @@ body {
 }
 
 .large-grid-container {
-  padding: 50px;
+  padding: 100px;
 }
 
 .grid-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
+  grid-gap: 100px;
   text-align: center;
   justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .image-portrait {
