@@ -14,10 +14,7 @@ html {
 
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-family: "Montserrat Condensed", sans-serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "open-sans", sans-serif;
+  font-weight: 200,300,400,500;
 }
 
 *, *::before, *::after {
@@ -48,17 +45,30 @@ body {
   padding: 100px;
 }
 
-.grid-container{
+.grid-container, .program-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 100px;
   text-align: center;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+.program-card {
+  max-width: 400px;
+  display: inline-block;
+  margin: auto;
+  justify-content: center;
 }
 
 .image-portrait {
   max-width: 100%;
+}
+
+.illustration-image, .program-grid {
+  max-width: 800px;
+  margin: auto;
 }
 
 
@@ -198,7 +208,7 @@ li, h1 {
 .subheading {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 10pt;
   padding-bottom: 2%;
 }
@@ -390,7 +400,7 @@ textarea:focus {
   .subheading {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 15pt;
     padding-bottom: 2%;
   }
