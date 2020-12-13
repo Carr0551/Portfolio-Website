@@ -1,0 +1,52 @@
+---
+layout: default
+title: Contant
+meta: Leave a message to contact LarissaMichelle
+---
+
+  <div class="banner">
+    <img class="img-flex pad-b pad-t" src="{{site.baseurl}}/images/wall-mountain.jpg" alt="">
+  </div>
+  <h2 class="heading text-center pad-t-2 push-0">Contact</h2>
+  <p class="subheading text-center">Looking forward to hearing from you!</p>
+  <section class="contact gutter-2">
+    <div class="contact-content">
+      <p>I would love to meet with you in person if you are interested in getting work done. However, if you live far, lets schedule a video chat so we can meet. This form below is the best way to get things stared, helping us each to get to know one another.
+      <br>
+      <br>
+      Please dont hesitate to contact me, I look forward to working with you!</p>
+      <section class="contact pad-t-2 pad-b-2">
+        <div class="max-length">
+          <form class="push-0" method="POST" name="sendemail" action="//formspree.io/larissa.carruthers@gmail.com">
+            <div class="push inline">
+              <label for="name" class="">Name*</label>
+              <label for="name" class="micro pad-t-1-2">First</label>
+              <input id="name" name="name">
+              <label for="name" class="micro pad-t-1-2">Last</label>
+              <input id="name" name="name">
+            </div>
+            <br>
+            <br>
+            <div class="push">
+              <label for="email" class="">Your Email</label>
+              <input id="email" type="email" placeholder="@gmail.com" name="email">
+            </div>
+            <div class="push">
+              <label for="subject">Reason For Inquiry</label>
+              <select id="subject" name="_subject">
+                <option>-select-</option>
+                <option>Get a quote!</option>
+                <option>General question</option>
+                <option>Just to talk</option>
+              </select>
+            </div>
+            <div class="push">
+              <label for="details">Message</label>
+              <textarea type="tetx" id="details" name="message"></textarea>
+            </div>
+            <div class="text-center">
+              <a class="btn" type="submit" href="{{site.baseurl}}/thankyou">Submit</a>
+            </div>
+          </form>
+        </div>
+      </section>

@@ -12,9 +12,12 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: "brush-script-std", sans-serif;
   font-style: normal;
-  font-weight: 200,300,400,500;
+  font-weight: 400;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "open-sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -30,7 +33,7 @@ body {
 }
 
 .contact-content {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding: none;
 
 }
@@ -39,41 +42,6 @@ body {
   display: block;
   width: 100%;
   overflow: hidden;
-}
-
-.large-grid-container {
-  padding: 100px;
-}
-
-.grid-container, .program-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 100px;
-  text-align: center;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.program-card {
-  max-width: 400px;
-  display: inline-block;
-  margin: auto;
-  justify-content: center;
-}
-
-.image-portrait {
-  max-width: 100%;
-}
-
-.illustration-image, .program-grid {
-  max-width: 800px;
-  margin: auto;
-}
-
-.Easter-TagLine-small {
-  justify-content: center;
-  margin: auto;
-  max-width: 70%;
 }
 
 a {
@@ -131,7 +99,7 @@ li, h1 {
   color: white;
   display: inline-block;
   font-size: 5em;
-  font-family: "Montserrat", sans-serif;
+  font-family: "brush-script-std", sans-serif;
 }
 
 .body-content {
@@ -161,14 +129,7 @@ li, h1 {
   top: 0;
   bottom: 0;
   z-index: 1000;
-  font-size: 1.5em;
-  outline: : none;
-}
-
-#nav {
-  font-size: 1em;
-  font-weight: 200;
-  padding-top: 10px;
+  font-size: 2em;
 }
 
 .navigation-bar{
@@ -205,27 +166,27 @@ li, h1 {
 }
 
 .heading {
-  font-family: "Montserrat", sans-serif;
+  font-family: "brush-script-std", sans-serif;
   font-size: 20pt;
   padding-bottom: .5em;
 }
 
 .heading-2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "brush-script-std", sans-serif;
   font-size: 20pt;
   padding-bottom: .5em;
 }
 
 .subheading {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 10pt;
   padding-bottom: 2%;
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 8.5pt;
@@ -283,28 +244,20 @@ textarea:focus {
   width: 100%;
 }
 
-#nav {
-  display: none;
-}
-
   @media only screen and (min-width: 25em) {
 
-    /* .navigation-bar {
+    .navigation-bar {
       display: none;
-    } */
+    }
 
     .picture {
-      padding-left: 1em;
-      padding-right: 1em;
+      padding-left: 2em;
+      padding-right: 2em;
     }
 
     .pictures {
       padding-left: none;
       padding-right: none;
-    }
-
-    #nav a:hover {
-      color: #d5b343;
     }
 
 
@@ -351,7 +304,6 @@ textarea:focus {
   #nav {
     text-align: center;
     list-style-type: none;
-    display: block;
   }
 
   #nav ul {
@@ -363,22 +315,12 @@ textarea:focus {
     float: left;
     padding-left: 25px;
     list-style-type: none;
-    font-family: "Montserrat", sans-serif;
   }
-
   #nav li {
     display: inline;
     list-style-type: none;
+
   }
-
-  .nav li:nth-child(n+3) {
-    display:none;
-}
-
-  .nav li {
-    padding-left: 25px;
-  }
-
   .body-content, .contact-content {
     padding-left: 10em;
     padding-right: 10em;
@@ -391,7 +333,6 @@ textarea:focus {
 
   .content {
     font-size: 10em;
-    opacity: 0.5;
   }
 
   .pictures {
@@ -415,27 +356,27 @@ textarea:focus {
   }
 
   .heading {
-    font-family: "Montserrat", sans-serif;
+    font-family: "brush-script-std", sans-serif;
     font-size: 30pt;
     padding-bottom: .5em;
   }
 
   .heading-2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "brush-script-std", sans-serif;
     font-size: 25pt;
     padding-bottom: .5em;
   }
 
   .subheading {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 15pt;
     padding-bottom: 2%;
   }
 
   p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10pt;
@@ -469,19 +410,19 @@ textarea:focus {
   }
 
   .heading {
-    font-family: "Montserrat", sans-serif;
+    font-family: "brush-script-std", sans-serif;
     font-size: 30pt;
     padding-bottom: .5em;
   }
 
   .heading-2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "brush-script-std", sans-serif;
     font-size: 25pt;
     padding-bottom: .5em;
   }
 
   .subheading {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15pt;
@@ -489,10 +430,9 @@ textarea:focus {
   }
 
   p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans Condensed", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10pt;
   }
-
 }
