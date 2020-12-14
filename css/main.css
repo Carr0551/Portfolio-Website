@@ -371,7 +371,7 @@ textarea:focus {
     list-style-type: none;
   }
 
-  .nav li:nth-child(n+3) {
+  .nav li:nth-child(n+4) {
     display:none;
 }
 
