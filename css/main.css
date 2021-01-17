@@ -206,13 +206,13 @@ li, h1 {
 
 .heading {
   font-family: "Montserrat", sans-serif;
-  font-size: 20pt;
+  font-size: 15pt;
   padding-bottom: .5em;
 }
 
 .heading-2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 20pt;
+  font-size: 15pt;
   padding-bottom: .5em;
 }
 
@@ -416,13 +416,13 @@ textarea:focus {
 
   .heading {
     font-family: "Montserrat", sans-serif;
-    font-size: 30pt;
+    font-size: 20pt;
     padding-bottom: .5em;
   }
 
   .heading-2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 25pt;
+    font-size: 20pt;
     padding-bottom: .5em;
   }
 
